@@ -1,18 +1,18 @@
 ## YouTube-Comment-Analysis-Using-Natural-Language-Processing
 This Repository helps to analysis YouTube comments using Natural Language Processing.
 
-YouTube comments may contain more than one language. So I have splitted into two set output branch. Mixed Language(Eng, tam and any) as ML and Non-Mixed Language(Only english) as NML
+YouTube comments may contain more than one language. So I have split into two set output branch. Mixed Language(Eng, tam and any) as ML and Non-Mixed Language(Only English) as NML
 
-Same code for both the cases, For effective analysis I have analysed as two parts ML and NML
+Same code for both the cases, For effective analysis I have analyzed as two parts ML and NML
 
-### Step 1: Collect interested YouTube comment in a seperate folder using below link ##
+### Step 1: Collect interested YouTube comment in a separate folder using below link ##
 
 using the http://ytcomments.klostermann.ca/ can download interested youtube video comments
-My full hearted thanks to this team who made time consuming work in to one click work.
+My full-hearted thanks to this team who made time-consuming work into one click work.
 
 ## Step 2 &  Step 3 for Python Beginners(Optional for others)
 
-### Step 2 : Download Anaconda Distribution from the below link ###
+### Step 2: Download Anaconda Distribution from the below link ###
 
 click  this https://www.anaconda.com/distribution/#download-section 
 According to your operating System Download the distribution and install( can refer any youtube videos)
@@ -28,7 +28,7 @@ After the installation of Anaconda, type Anaconda prompt in the windows search b
 Example:
      conda create -n nlp
 
-    3.After this step close the Anaconda Prompt.
+    3.After this step closes the Anaconda Prompt.
 
     4. Again open
 
@@ -52,11 +52,11 @@ Example:
     1_Uncleaneddata_Algo_Wholefile_ML.csv    Python file name: 1_All_to_one_YT.py      
 #### 2. Removed empty rows, Unwanted rows 
     2_Cleaneddata_Algo_Wholefile_ML.csv      Python file name: 2_Cleaning_YT.py
-#### 3. Sentimental Analysis for whole file using Vader from NLTK
+#### 3. Sentimental Analysis for the whole file using Vader from NLTK
     3_PosNeg(senti)_Vader_Wholefile_ML.csv    Python file name: 3_PosNeg(senti)_Vader_Wholefile.py
-#### 4. Same person may commented many times, if u want to see who commented number of times. Here, I have done for who commented more than 50 times. Only lists stored in the file which will be used later. Condition depends on your need.         
+#### 4. Same person may comment many times if u want to see who commented a number of times. Here, I have done for who commented more than 50 times. Only lists stored in the file which will be used later. Condition depends on your need.         
     4_MostCommented_grt50com_list_ML.csv    Python file name: 4_Most commented file.py
-#### 5. With the help of previous list file, entire information of particular people will be stored as .csv file for each subcriber who are all commented more than 50 times.              
+#### 5. With the help of previous list file, entire information of particular people will be stored as a .csv file for each subscriber who is all commented more than 50 times.              
      5_MostCommented_grt50com_ML(Folder contains .csv)  Python file name: 4_Most commented file.py
 #### 6. Sentimental Analysis for each subcriber comments
      6_PosNeg(senti)_grt50com_Eachsub_ML(Assign Senti to each .csv file from 5. )   Python file name: 5_PosNeg(senti)_grt50com_Eachsub
@@ -77,11 +77,11 @@ Example:
     9_Wordcloud_Algo_Topic_Wholefile_ML (image)  # Word cloud for wholefile                             
     9.1_Wordcloud_Algo_Topic_Eachsub_ML(Folder)   # Word cloud for each subcriber comments 
     
-Note: Above output format follows same for NON MIXED Language.
+Note: Above output format follows the same for NON-MIXED Language.
 
 ## Conclusion
 
-Here I have download youtube comments  and processed using NLP. The concept analysed are
+Here I have download youtube comments and processed using NLP. The concept analyzed are
 
 1. Sentimental Analysis
 2. Topic Modelling
@@ -90,6 +90,7 @@ Here I have download youtube comments  and processed using NLP. The concept anal
 Those who want to do hands-on NLP you can try under different conditions.
 
 Thank You.
+
 
 
 
