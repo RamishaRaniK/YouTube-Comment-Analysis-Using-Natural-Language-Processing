@@ -1,5 +1,5 @@
 ## YouTube-Comment-Analysis-Using-Natural-Language-Processing
-This Repository helps to analysis YouTube comments using Natural Language Processing.
+This Repository helps to analyze YouTube comments using Natural Language Processing.
 
 YouTube comments may contain more than one language. So I have split into two set output branch. Mixed Language(Eng, tam and any) as ML and Non-Mixed Language(Only English) as NML
 
@@ -10,7 +10,7 @@ Same code for both the cases, For effective analysis I have analyzed as two part
 using the http://ytcomments.klostermann.ca/ can download interested youtube video comments
 My full-hearted thanks to this team who made time-consuming work into one click work.
 
-## Step 2 &  Step 3 for Python Beginners(Optional for others)
+## Note:  Step 2 &  Step 3 for Python Beginners(Optional for others)
 
 ### Step 2: Download Anaconda Distribution from the below link ###
 
