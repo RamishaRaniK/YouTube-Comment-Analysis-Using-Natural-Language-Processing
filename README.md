@@ -52,6 +52,8 @@ Example:
     1_Uncleaneddata_Algo_Wholefile_ML.csv    Python file name: 1_All_to_one_YT.py      
 #### 2. Removed empty rows, Unwanted rows 
     2_Cleaneddata_Algo_Wholefile_ML.csv      Python file name: 2_Cleaning_YT.py
+#### 2.1 Remove irrelvant word or unwanted from input for effective process
+    Pythonfile name:2.1_clean_withignorewords.py
 #### 3. Sentimental Analysis for the whole file using Vader from NLTK
     3_PosNeg(senti)_Vader_Wholefile_ML.csv    Python file name: 3_PosNeg(senti)_Vader_Wholefile.py
 #### 4. Same person may comment many times if u want to see who commented a number of times. Here, I have done for who commented more than 50 times. Only lists stored in the file which will be used later. Condition depends on your need.         
